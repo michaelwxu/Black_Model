@@ -2,6 +2,9 @@
 The goal is to create a R package to plot implied volatility for a set of European options using Black's Model (Black 76)
 
 Detailed description please see Project Description.png
+Main functions are in plotImpliedVol_master.R
+Driver.R provides a use-case where it creates a data frame and calls the functions in plotImpliedVol_master.R
+The package built upon these main functions is the tar.gz file
 
 Package DESCRIPTION:
 # ****************************
@@ -18,5 +21,4 @@ LazyData: true
 RoxygenNote: 5.0.1.9000
 # ****************************
 
-Main functions are in plotImpliedVol_master.R, where the package built upon these main functions are in the tar.gz file
 
